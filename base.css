@@ -1,0 +1,114 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+/*geral class */
+
+.tabela,tr, td, h1{ 
+    color: #f1f1f1;
+    font-size: 50px;
+    font-family: arial;
+    
+}
+.tabela,tr,td{
+    background-color: #0e6328;
+}
+
+/*geral class */
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 15px;
+    background-color: rgb(1, 36, 24);
+    
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+/* sobre o menu */
+.menu {
+    
+    font-family: arial;
+    width: 15%;
+    background-color: #0e6328;
+    padding: 10px 20px 0px;
+}
+li,a:link{ list-style-type: none;
+    color: #f1f1f1;
+    text-decoration: none;
+}
+a:visited{color: #f1f1f1;}
+/* sobre o menu */
+
+
+.header {
+
+    background-color: #0e6328;
+    min-height: 150px;
+}
+ /* sobre o conteudo*/
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+    
+}
+
+.content, h2{
+    font-size: 30px;
+    font-family: arial;
+    color: #0e6328;
+
+}
+
+.content, p{
+    font-family: arial;
+    color: black;
+
+}
+.content, ul,li{
+    font-family: arial;
+    color: black;
+    
+
+}
+/* fim sobre o conteudo*/
+.footer {
+    padding: 20px;
+  color: #f1f1f1;
+    min-height: 150px;
+}
+.footer, a, i{
+    font-size: 20px;
+    padding: 5px;
+}
+ 
+/* tabela de atendimento*/
+
+.horario, thead, th{
+    background-color: #f1f1f1;
+    color: black;
+
+}
+
+
+   
+
+
+.horario,tr, td{
+    
+    font-size: 20px;
+   
+    color: white;
+    text-align: center;
+
+
+}
+
+/* fim da tabela de atendimento*/
